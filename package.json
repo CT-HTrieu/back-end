@@ -1,23 +1,15 @@
 {
-  "name": "back-end",
-  "version": "1.0.0",
-  "description": "",
-  "main": "myApp.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CT-HTrieu/back-end.git"
-  },
-  "author": "Trieu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CT-HTrieu/back-end/issues"
-  },
-  "homepage": "https://github.com/CT-HTrieu/back-end#readme",
-  "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.1"
-  }
+	"name": "fcc-learn-npm-package-json",
+	"author": "Trieu",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CT-HTrieu/back-end.git"
+	}
 }
